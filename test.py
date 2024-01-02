@@ -4,6 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 #from PIL import Image
 import qrcode
+import docstring
 
 def generate_qr_code(mail, phone, firstname, lastname):
     # Combine information into a string
@@ -69,12 +70,12 @@ def send_email(receiver_email, firstname, attachment_filename):
 
 if __name__ == "__main__":
     # Replace these with the actual client information
-    client_mail = "mailmansour@gmx.fr"
-    client_phone = "0664379518"
-    client_firstname = "Mansour"
-    client_lastname = "KA"
+    TargetUserMail = "mailmansour@gmx.fr"
+    TargetUserPhone = "0664379518"
+    TargetUserFirstname = "Mansour"
+    TargetUserLastname = "KA"
     # Generate and save the QR code
-    qr_code_path = generate_qr_code(client_mail, client_phone, client_firstname, client_lastname)
+    QRCodePath = generate_qr_code(TargetUserMail, TargetUserPhone, TargetUserFirstname, TargetUserFastname)
 
     # Send the email with the QR code as an attachment
-    send_email(client_mail, client_firstname, qr_code_path)
+    send_email(TargetUserMail, TargetUserFirstname, QRCodePath)
