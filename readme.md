@@ -29,9 +29,8 @@ following command:
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the application, with the
-4. 
-following command:
+3. Run the application, with the following command:
+
 ```bash
 python3 app.py
 ```
