@@ -30,7 +30,7 @@ def generate_qr_code(mail, phone, firstname, lastname, entity, crypted_info):
 def send_email(receiver_email, attachment_filename):
     # Your email credentials
     sender_email = "kamansour06@gmail.com"
-    sender_password = "bvjm fnrx caho etsq"
+    sender_password = "xxxxxxxxxxxxxxxxxxxxxx"
 
     # Set up the MIME
     message = MIMEMultipart()
