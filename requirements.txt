@@ -1,0 +1,6 @@
+qrcode[pil]      # Library for generating QR codes with PIL support
+smtplib          # Library for handling SMTP (Simple Mail Transfer Protocol)
+Pillow           # Image processing library (used as a fork of PIL)
+google-auth-oauthlib    # Library for handling Gmail authentication
+google-auth
+google-auth-httplib2
