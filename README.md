@@ -23,9 +23,8 @@ git clone https://github.com/mansourka06/generate_qrcode_app.git
 cd generate_qrcode_app
 ```
 
-2. Install the required Python packages, with the
-3. 
-following command:
+2. Install the required Python packages, with the following command:
+
 ```bash
 pip install -r requirements.txt
 ```
