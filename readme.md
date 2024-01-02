@@ -36,6 +36,6 @@ following command:
 python3 app.py
 ```
 
-## Auhtor
+## Author
 
 [Mansour KA](https://github.com/mansourka06)
