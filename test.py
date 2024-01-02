@@ -2,7 +2,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
-from PIL import Image
+#from PIL import Image
 import qrcode
 
 def generate_qr_code(mail, phone, firstname, lastname):
